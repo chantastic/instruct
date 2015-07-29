@@ -1,0 +1,22 @@
+{
+  "name": "instruct",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/chantastic/instruct",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "authors": [
+    "Michael Chan"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
