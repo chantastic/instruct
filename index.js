@@ -1,10 +1,12 @@
-'use strict';
+/* eslint-env node */
+
+"use strict";
 module.exports = function (str, opts) {
-	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string');
-	}
+  if (typeof str !== "string") {
+    throw new TypeError("Expected a string");
+  }
 
-	opts = opts || {};
+  opts = opts || {};
 
-	return str + ' & ' + (opts.postfix || 'rainbows');
+  return str + " & " + (opts.postfix || "rainbows");
 };
